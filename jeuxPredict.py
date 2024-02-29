@@ -14,7 +14,7 @@ if 'Id' not in st.session_state:
 
 
 ### LES DATAFRAMES ###
-jeuxPredict = pd.read_csv('https://drive.google.com/uc?export=download&id=1LwpZw0e1in9lAcBgHgCR7xa6N7mmztSb')
+jeuxPredict = pd.read_csv('https://drive.google.com/uc?export=download&id=1LwpZw0e1in9lAcBgHgCR7xa6N7mmztSb', sep=",")
 
 ### LES FONCTION ###
 
